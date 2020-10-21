@@ -1,0 +1,31 @@
+{
+  "name": "react-course-wishlist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "lint": "eslint --fix src/**/*.{js,jsx}",
+    "format": "prettier --write \"src/*.{js,jsx,json,css}\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^2.1.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.21.4",
+    "parcel-bundler": "^1.12.4"
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "singleQuote": true,
+    "semi": true
+  }
+}
