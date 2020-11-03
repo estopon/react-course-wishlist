@@ -10,7 +10,7 @@ const WishList = ({ wishes, onWishesChange }) => (
         done={done}
         id={`wish${i}`}
         onDoneChange={(value) => {
-          const updatedWishes = [... wishes];
+          const updatedWishes = [...wishes];
           updatedWishes[i].done = value;
           onWishesChange(updatedWishes);
         }}
